@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>BYB</title>
+  <link rel="stylesheet" href="Breaksheet Styling.css">
+</head>
+
+<body>
+  <header>
+    <h1>Lunch Break Booking RMG</h1>
+  </header>
+
+  <section class="booking-section">
+    <div class="form-and-table">
+      <div class="booking-form">
+        <h2>Book Your Lunch Break</h2>
+        <form id="booking-form">
+          <table>
+            <tr>
+              <th>Select Day:</th>
+              <td>
+                <select id="day" name="day" title="Select Day">
+                  <option value="" disabled selected>-- Select --</option>
+                  <option value="Monday">Monday</option>
+                  <option value="Tuesday">Tuesday</option>
+                  <option value="Wednesday">Wednesday</option>
+                  <option value="Thursday">Thursday</option>
+                  <option value="Friday">Friday</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th>Employee Name:</th>
+              <td>
+                <select id="employee" name="employee" title="Select Employee">
+                  <option value="" disabled selected>-- Select --</option>
+                  <option value="Antonio Jantjies">Antonio Jantjies</option>
+                  <option value="Anwar Heneke">Anwar Heneke</option>
+                  <option value="Astrin Pasquallie">Astrin Pasquallie</option>
+                  <option value="Bradley Peters">Bradley Peters</option>
+                  <option value="Dillon Adams">Dillon Adams</option>
+                  <option value="Duane Sampson">Duane Sampson</option>
+                  <option value="Ebrahim Du Plessis">Ebrahim Du Plessis</option>
+                  <option value="Ethan Lakay">Ethan Lakay</option>
+                  <option value="Ezra Hendricks">Ezra Hendricks</option>
+                  <option value="Frank du Toit">Frank du Toit</option>
+                  <option value="Gharieth Abrahams">Gharieth Abrahams</option>
+                  <option value="Hakeem Abrahams">Hakeem Abrahams</option>
+                  <option value="Hlombekazi Mbelu">Hlombekazi Mbelu</option>
+                  <option value="Jason Saayman">Jason Saayman</option>
+                  <option value="Johan Schoeman">Johan Schoeman</option>
+                  <option value="Kaylin Reginald Salie">Kaylin Reginald Salie</option>
+                  <option value="Lonwabo Tshetshe">Lonwabo Tshetshe</option>
+                  <option value="Lorian Slabbert">Lorian Slabbert</option>
+                  <option value="Marlin Smith">Marlin Smith</option>
+                  <option value="Mohamad Imtiyaaz Ally">Mohamad Imtiyaaz Ally</option>
+                  <option value="Mzolisi Zinzela">Mzolisi Zinzela</option>
+                  <option value="Nazario Pieterse">Nazario Pieterse</option>
+                  <option value="Reul Paul">Reul Paul</option>
+                  <option value="Sonwabile Cuba">Sonwabile Cuba</option>
+                  <option value="Tohriq Samodien">Tohriq Samodien</option>
+                  <option value="Yusuf Cassiem">Yusuf Cassiem</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th>Time Slot 1:</th>
+              <td>
+                <label for="start-time-1">Start Time:</label>
+                <select id="start-time-1" name="start-time-1">
+                  <option value="" disabled selected>-- Select --</option>
+                  <option value="09:00">09:00</option>
+                  <option value="09:15">09:15</option>
+                  <option value="09:30">09:30</option>
+                  <option value="09:45">09:45</option>
+                  <option value="10:00">10:00</option>
+                  <option value="10:15">10:15</option>
+                  <option value="10:30">10:30</option>
+                  <option value="10:45">10:45</option>
+                  <option value="11:00">11:00</option>
+                  <option value="11:15">11:15</option>
+                  <option value="11:30">11:30</option>
+                  <option value="11:45">11:45</option>
+                  <option value="12:00">12:00</option>
+                  <option value="12:15">12:15</option>
+                  <option value="12:30">12:30</option>
+                  <option value="12:45">12:45</option>
+                  <option value="13:00">13:00</option>
+                  <option value="13:15">13:15</option>
+                  <option value="13:30">13:30</option>
+                  <option value="13:45">13:45</option>
+                  <option value="14:00">14:00</option>
+                  <option value="14:15">14:15</option>
+                  <option value="14:30">14:30</option>
+                  <option value="14:45">14:45</option>
+                  <option value="15:00">15:00</option>
+                  <option value="15:15">15:15</option>
+                  <option value="15:30">15:30</option>
+                  <option value="15:45">15:45</option>
+                  <option value="16:00">16:00</option>
+                  <option value="16:15">16:15</option>
+                  <option value="16:30">16:30</option>
+                  <option value="16:45">16:45</option>
+                  <option value="17:00">17:00</option>
+                </select>
+                <label for="end-time-1">End Time:</label>
+                <select id="end-time-1" name="end-time-1">
+                  <option value="" disabled selected>-- Select --</option>
+                  <option value="09:15">09:15</option>
+                  <option value="09:30">09:30</option>
+                  <option value="09:45">09:45</option>
+                  <option value="10:00">10:00</option>
+                  <option value="10:15">10:15</option>
+                  <option value="10:30">10:30</option>
+                  <option value="10:45">10:45</option>
+                  <option value="11:00">11:00</option>
+                  <option value="11:15">11:15</option>
+                  <option value="11:30">11:30</option>
+                  <option value="11:45">11:45</option>
+                  <option value="12:00">12:00</option>
+                  <option value="12:15">12:15</option>
+                  <option value="12:30">12:30</option>
+                  <option value="12:45">12:45</option>
+                  <option value="13:00">13:00</option>
+                  <option value="13:15">13:15</option>
+                  <option value="13:30">13:30</option>
+                  <option value="13:45">13:45</option>
+                  <option value="14:00">14:00</option>
+                  <option value="14:15">14:15</option>
+                  <option value="14:30">14:30</option>
+                  <option value="14:45">14:45</option>
+                  <option value="15:00">15:00</option>
+                  <option value="15:15">15:15</option>
+                  <option value="15:30">15:30</option>
+                  <option value="15:45">15:45</option>
+                  <option value="16:00">16:00</option>
+                  <option value="16:15">16:15</option>
+                  <option value="16:30">16:30</option>
+                  <option value="16:45">16:45</option>
+                  <option value="17:00">17:00</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th>Time Slot 2:</th>
+              <td>
+                <label for="start-time-2">Start Time:</label>
+                <select id="start-time-2" name="start-time-2">
+                  <option value="" disabled selected>-- Select --</option>
+                  <option value="09:00">09:00</option>
+                  <option value="09:15">09:15</option>
+                  <option value="09:30">09:30</option>
+                  <option value="09:45">09:45</option>
+                  <option value="10:00">10:00</option>
+                  <option value="10:15">10:15</option>
+                  <option value="10:30">10:30</option>
+                  <option value="10:45">10:45</option>
+                  <option value="11:00">11:00</option>
+                  <option value="11:15">11:15</option>
+                  <option value="11:30">11:30</option>
+                  <option value="11:45">11:45</option>
+                  <option value="12:00">12:00</option>
+                  <option value="12:15">12:15</option>
+                  <option value="12:30">12:30</option>
+                  <option value="12:45">12:45</option>
+                  <option value="13:00">13:00</option>
+                  <option value="13:15">13:15</option>
+                  <option value="13:30">13:30</option>
+                  <option value="13:45">13:45</option>
+                  <option value="14:00">14:00</option>
+                  <option value="14:15">14:15</option>
+                  <option value="14:30">14:30</option>
+                  <option value="14:45">14:45</option>
+                  <option value="15:00">15:00</option>
+                  <option value="15:15">15:15</option>
+                  <option value="15:30">15:30</option>
+                  <option value="15:45">15:45</option>
+                  <option value="16:00">16:00</option>
+                  <option value="16:15">16:15</option>
+                  <option value="16:30">16:30</option>
+                  <option value="16:45">16:45</option>
+                  <option value="17:00">17:00</option>
+                </select>
+                <label for="end-time-2">End Time:</label>
+                <select id="end-time-2" name="end-time-2">
+                  <option value="" disabled selected>-- Select --</option>
+                  <option value="09:15">09:15</option>
+                  <option value="09:30">09:30</option>
+                  <option value="09:45">09:45</option>
+                  <option value="10:00">10:00</option>
+                  <option value="10:15">10:15</option>
+                  <option value="10:30">10:30</option>
+                  <option value="10:45">10:45</option>
+                  <option value="11:00">11:00</option>
+                  <option value="11:15">11:15</option>
+                  <option value="11:30">11:30</option>
+                  <option value="11:45">11:45</option>
+                  <option value="12:00">12:00</option>
+                  <option value="12:15">12:15</option>
+                  <option value="12:30">12:30</option>
+                  <option value="12:45">12:45</option>
+                  <option value="13:00">13:00</option>
+                  <option value="13:15">13:15</option>
+                  <option value="13:30">13:30</option>
+                  <option value="13:45">13:45</option>
+                  <option value="14:00">14:00</option>
+                  <option value="14:15">14:15</option>
+                  <option value="14:30">14:30</option>
+                  <option value="14:45">14:45</option>
+                  <option value="15:00">15:00</option>
+                  <option value="15:15">15:15</option>
+                  <option value="15:30">15:30</option>
+                  <option value="15:45">15:45</option>
+                  <option value="16:00">16:00</option>
+                  <option value="16:15">16:15</option>
+                  <option value="16:30">16:30</option>
+                  <option value="16:45">16:45</option>
+                  <option value="17:00">17:00</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+      <div class="booked-lunch-breaks">
+        <h2>Booked Lunch Breaks</h2>
+        <table id="booked-lunch-breaks-table">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Employee</th>
+              <th>Start Time 1</th>
+              <th>End Time 1</th>
+              <th>Start Time 2</th>
+              <th>End Time 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Table rows will be generated dynamically -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="dashboard">
+    <h2>Available Slots</h2>
+    <div id="available-slots-dashboard">
+      <!-- Dashboard content will be generated dynamically -->
+    </div>
+  </section>
+
+  <section>
+    <button id="clear-database">Clear Database</button>
+  </section>
+
+  <!-- Hidden field for SharePoint request digest -->
+  <input type="hidden" id="__REQUESTDIGEST" value="">
+
+  <script src="Breaksheet Java Script.js"></script>
+</body>
+
+</html>

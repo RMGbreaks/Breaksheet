@@ -1,0 +1,114 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #e45151;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  animation: header-animation 0.3s ease;
+}
+
+.booking-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.form-and-table {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.booking-form, .booked-lunch-breaks {
+  flex: 1;
+  margin-right: 20px;
+}
+
+table {
+  border-collapse: separate;
+  width: 100%;
+  border-spacing: 0 20px;
+  box-shadow: 0 0 10px rgba(224, 92, 92, 0.815);
+  animation: table-animation 0.3s ease;
+}
+
+td, th {
+  min-width: 150px;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 20px;
+}
+
+th {
+  background-color: #f7f7f7;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.booking-form select, .booking-form input[type="submit"] {
+  width: 100%;
+}
+
+.dashboard {
+  padding: 40px;
+}
+
+#available-slots-dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#available-slots-dashboard .slot {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}
+
+button#clear-database {
+  background-color: #e45151;
+  color: #fff;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+button#clear-database:hover {
+  background-color: #c63939;
+}
